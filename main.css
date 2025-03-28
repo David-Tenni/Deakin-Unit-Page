@@ -28,3 +28,33 @@ div {
   background-color: blue;
   text-align: right;
 }
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: #222;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.glow-button {
+  padding: 15px 30px;
+  background: none;
+  color: #0ff;
+  border: 2px solid #0ff;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: sans-serif;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 20px #0ff;
+  text-shadow: 0 0 5px #0ff;
+}
